@@ -1,2 +1,10 @@
-productos = {'bebida': 2000, 'chocolate': 1200, 'galletas': 900, 'leche': 750, 'cereal': 2200}
-puts productos.delete[:galletas]
+h = {"x": 1, "y":2}
+h["z"]=3
+h[:x]=5
+h.delete(:y)
+puts h
+if h.has_key?("z")
+  puts "yeeah"
+end
+
+puts h.invert
